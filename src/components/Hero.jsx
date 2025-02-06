@@ -21,8 +21,7 @@ const Hero = () => {
           <div className="mt-6">
             <p className="text-gray-400">// my number</p>
             <p className="text-green-400">
-              const <span className="text-yellow-300">telephoneNum</span> = "018
-              7696 1930";
+              const <span className="text-yellow-300">telephoneNum</span> = <span className="text-white">018 7696 1930</span>;
             </p>
 
             <p className="text-gray-400 mt-3">// my e-mail</p>
@@ -43,16 +42,14 @@ const Hero = () => {
               ";
             </p>
 
-            <p className="text-gray-400 mt-3">// LinkedIn</p>
-            <p className="text-green-400">
-              const <span className="text-yellow-300">linkedinPage</span> = "
+            <p className="text-green-400 pt-4">
               <a
-                href="https://www.linkedin.com/in/davide-simone-a2823619a/"
-                className="text-blue-400 hover:underline"
-              >
-                https://www.linkedin.com/in/ishtiaksaad/
-              </a>
-              ";
+              href="#"  // Replace with actual resume URL when ready
+              download
+              className="px-6 py-3 border border-green-400 text-green-400 hover:bg-green-400 hover:text-black transition-all duration-300 font-mono text-sm"
+            >
+              Download Resume
+            </a>
             </p>
           </div>
         </div>
