@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className="flex items-center">
           <div className="text-green-400 font-mono text-lg font-bold md:pl-12 md:pr-16 py-2 border-zinc-500 md:border-r-[1px]">
             <span className="text-green-400">&lt;/&gt; </span>
-            ishtiak-saad
+            <a href="/">ishtiak-saad</a>
           </div>
         </div>
 
@@ -39,7 +39,7 @@ const Navbar = () => {
         </div>
 
         {/* Mobile Menu Button */}
-        <div className="md:hidden">
+        <div className="lg:hidden">
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="text-gray-400 hover:text-orange-400 transition duration-300"
@@ -64,7 +64,7 @@ const Navbar = () => {
         <a href="#_education" className="py-2 hover:text-orange-400" onClick={() => setIsOpen(false)}>
           _education
         </a>
-        <a href="#contact" className="py-2 text-green-400 hover:text-orange-400" onClick={() => setIsOpen(false)}>
+        <a href="#contact" className="py-2 hover:text-orange-400" onClick={() => setIsOpen(false)}>
           _contact-me
         </a>
       </div>

@@ -30,11 +30,11 @@ const skillsData = [
 
 const Skills = () => {
   return (
-    <section id="skills" className="text-gray-300 py-16 px-6 md:px-12">
+    <section id="skills" className="text-gray-300 py-16 md:px-12">
       <div className="container mx-auto">
         <h2 className="text-3xl font-bold text-green-400 font-mono mb-8">_skills</h2>
 
-        <div className="grid md:grid-cols-3 gap-10">
+        <div className="grid lg:grid-cols-3 gap-10">
           {skillsData.map((category) => (
             <div key={category.category}>
               <h3 className="text-xl text-orange-400 font-semibold mb-4">{category.category}</h3>
@@ -45,7 +45,7 @@ const Skills = () => {
                     className="flex items-center space-x-3 bg-gray-900/50 border border-gray-700 p-4 rounded-lg hover:shadow-lg hover:shadow-green-500/20 transition"
                   >
                     <div className="text-2xl">{skill.icon}</div>
-                    <span className="text-gray-300">{skill.name}</span>
+                    <span className="text-gray-300 text-sm md:text-base">{skill.name}</span>
                   </div>
                 ))}
               </div>

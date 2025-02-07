@@ -3,8 +3,8 @@ import { FaGithub, FaLinkedin, FaTwitter, FaFacebook } from "react-icons/fa";
 const Hero = () => {
   return (
     <>
-      <div className="py-24 flex flex-col lg:flex-row items-center justify-evenly px-6">
-        <div className="w-[360px] border-2 border-green-400 shadow-lg shadow-green-500/20">
+      <div className="py-10 md:py-24 flex flex-col lg:flex-row items-center justify-evenly px-6 gap-6">
+        <div className="w-[280px] md:w-[360px] border-2 border-green-400 shadow-lg shadow-green-500/20">
           <img
             src="https://avatars.githubusercontent.com/u/40642231?v=4"
             alt="Profile"
@@ -17,10 +17,10 @@ const Hero = () => {
             &gt; MERN Stack developer
           </h2>
 
-          <div className="mt-6">
+          <div className="mt-6 text-sm lg:text-base">
             <p className="text-gray-400">// my number</p>
             <p className="text-green-400">
-              const <span className="text-yellow-300">telephoneNum</span> ={" "}
+              const <span className="text-yellow-300">phoneNum</span> ={" "}
               <span className="text-white">018 7696 1930</span>;
             </p>
 
@@ -54,7 +54,7 @@ const Hero = () => {
               ";
             </p>
 
-            <p className="text-green-400 pt-8">
+            <p className="text-green-400 pt-8 text-center">
               <a
                 href="#" // Replace with actual resume URL when ready
                 download

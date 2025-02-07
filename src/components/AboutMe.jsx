@@ -1,12 +1,9 @@
 const AboutMe = () => {
   return (
-    <section
-      id="about-me"
-      className="relative text-gray-300 py-16 px-6 md:px-12"
-    >
-      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
+    <section id="about-me" className="relative text-gray-300 py-16 md:px-12">
+      <div className="lg:container lg:mx-auto flex flex-col lg:flex-row items-center justify-between gap-6">
         {/* Left - About Text */}
-        <div className="max-w-4xl">
+        <div className="md:max-w-4xl">
           <h2 className="text-3xl font-bold text-green-400 font-mono mb-4">
             _about-me
           </h2>
@@ -28,10 +25,18 @@ const AboutMe = () => {
             engaging.
           </p>
 
+          <div className="relative w-full h-32 my-4 lg:hidden bg-gray-900/50 border-2 border-green-400 shadow-lg shadow-green-500/20 p-6 flex items-center justify-center">
+            <p className="text-green-400 font-mono text-xl">
+              "Build. Inspire. Repeat."
+            </p>
+          </div>
+
           <p className="mt-4 text-gray-400 leading-relaxed">
             I’ve taken on leadership roles in various technical and
             entrepreneurial initiatives. As a mechanical designer for{" "}
-            <span className="text-orange-400 font-semibold">Team Crack Platoon</span>
+            <span className="text-orange-400 font-semibold">
+              Team Crack Platoon
+            </span>
             , I contributed to the design of a Formula Student car, ensuring
             competition-ready engineering. I’ve also led technological
             development at Project Khadija and played a key role in organizing{" "}
@@ -48,8 +53,8 @@ const AboutMe = () => {
           </p>
         </div>
 
-        {/* Right - Aesthetic Box */}
-        <div className="relative w-80 h-80 bg-gray-900/50 border-2 border-green-400 shadow-lg shadow-green-500/20 p-6 flex items-center justify-center">
+        {/* Right Box */}
+        <div className="relative w-80 h-80 bg-gray-900/50 border-2 hidden border-green-400 shadow-lg shadow-green-500/20 p-6 lg:flex items-center justify-center">
           <p className="text-green-400 font-mono text-xl">
             "Build. Inspire. Repeat."
           </p>

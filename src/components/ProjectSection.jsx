@@ -1,4 +1,3 @@
-import React from "react";
 import project1 from "../assets/project-1.png";
 import projectN from "../assets/project-n.png";
 import projectM from "../assets/project-m.png";
@@ -32,7 +31,7 @@ const projects = [
 
 const ProjectsSection = () => {
   return (
-    <section className="text-gray-300 py-16 px-6 md:px-12">
+    <section className="text-gray-300 py-16 md:px-12">
       <div className="container mx-auto">
         <h2 className="text-3xl font-bold text-green-400 font-mono mb-8">
           _my-projects
