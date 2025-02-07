@@ -55,25 +55,25 @@ const Hero = () => {
               </a>
               ";
             </p>
-
-            <p className="text-green-400 pt-8 text-center">
-              <a
-                href="https://drive.google.com/uc?export=download&id=1-Km7352bYQE6dKB-LrP_23Yu1TA4GEM3"
-                className="px-6 py-3 border border-green-400 text-green-400 hover:bg-green-400 hover:text-black transition-all duration-300 font-mono text-sm"
-              >
-                Download Resume
-              </a>
-            </p>
           </div>
         </div>
       </div>
 
       <div className="w-3/4 mx-auto md:px-12 flex flex-col md:flex-row justify-between items-center">
         {/* Left Side - Branding */}
-        <div className="font-mono text-sm">
+        <div className="font-mono text-sm mb-4 md:m-0">
           <span className="text-green-400">&lt;/&gt;</span>
           <span className="text-gray-300"> ishtiak-saad</span>
         </div>
+
+        <p className="text-green-400 text-center mg:text-left">
+          <a
+            href="https://drive.google.com/uc?export=download&id=1-Km7352bYQE6dKB-LrP_23Yu1TA4GEM3"
+            className="px-6 py-3 border border-green-400 text-green-400 hover:bg-green-400 hover:text-black transition-all duration-300 font-mono text-sm"
+          >
+            Download Resume
+          </a>
+        </p>
 
         {/* Right Side - Social Media Links */}
         <div className="flex space-x-4 mt-4 md:mt-0">

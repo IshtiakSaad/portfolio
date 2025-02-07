@@ -1,12 +1,12 @@
 import { useState } from "react";
-import { FiMenu, FiX } from "react-icons/fi"; // Import icons for the menu toggle
+import { FiMenu, FiX } from "react-icons/fi";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <nav className="fixed top-0 left-0 w-full bg-gradient-to-r from-black via-gray-900 to-gray-800 text-white shadow-lg border-t-[1px] border-b-[1px] border-zinc-500 z-50 backdrop-blur-lg">
-      <div className="px-4 flex items-center justify-between py-3">
+      <div className="px-4 flex items-center justify-between ">
         {/* Name on the far left */}
         <div className="flex items-center">
           <div className="text-green-400 font-mono text-lg font-bold md:pl-12 md:pr-16 py-2 border-zinc-500 md:border-r-[1px]">
@@ -32,7 +32,7 @@ const Navbar = () => {
         <div className="hidden md:block">
           <a
             href="#contact"
-            className="text-green-400 hover:text-orange-400 font-mono md:pl-16 md:pr-12 py-3 md:border-l-[1px] border-zinc-500 transition duration-300"
+            className="text-green-500 font-bold hover:text-orange-400 font-mono md:pl-16 md:pr-12 py-3 md:border-l-[1px] border-zinc-500 transition duration-300"
           >
             _contact-me
           </a>
