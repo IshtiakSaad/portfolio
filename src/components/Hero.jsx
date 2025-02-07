@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaTwitter, FaFacebook } from "react-icons/fa";
 const Hero = () => {
   return (
     <>
-      <div className="py-24 flex flex-row items-center justify-evenly px-6">
+      <div className="py-24 flex flex-col lg:flex-row items-center justify-evenly px-6">
         <div className="w-[360px] border-2 border-green-400 shadow-lg shadow-green-500/20">
           <img
             src="https://avatars.githubusercontent.com/u/40642231?v=4"
@@ -12,16 +12,16 @@ const Hero = () => {
           />
         </div>
         <div className="text-left text-white font-mono">
-          <p className="text-lg text-gray-300">Hi all. I am</p>
-          <h1 className="text-5xl font-bold text-white mt-2">Ishtiak Saad</h1>
-          <h2 className="text-2xl text-blue-400 mt-1">
+          <h1 className="text-3xl md:text-5xl font-bold text-white mt-2">Ishtiak Saad</h1>
+          <h2 className="md:text-2xl text-blue-400 mt-1">
             &gt; MERN Stack developer
           </h2>
 
           <div className="mt-6">
             <p className="text-gray-400">// my number</p>
             <p className="text-green-400">
-              const <span className="text-yellow-300">telephoneNum</span> = <span className="text-white">018 7696 1930</span>;
+              const <span className="text-yellow-300">telephoneNum</span> ={" "}
+              <span className="text-white">018 7696 1930</span>;
             </p>
 
             <p className="text-gray-400 mt-3">// my e-mail</p>
@@ -42,14 +42,26 @@ const Hero = () => {
               ";
             </p>
 
-            <p className="text-green-400 pt-4">
+            <p className="text-gray-400 mt-3">// LinkedIn</p>
+            <p className="text-green-400">
+              const <span className="text-yellow-300">linkedinPage</span> = "
               <a
-              href="#"  // Replace with actual resume URL when ready
-              download
-              className="px-6 py-3 border border-green-400 text-green-400 hover:bg-green-400 hover:text-black transition-all duration-300 font-mono text-sm"
-            >
-              Download Resume
-            </a>
+                href="https://www.linkedin.com/in/davide-simone-a2823619a/"
+                className="text-blue-400 hover:underline"
+              >
+                https://www.linkedin.com/in/ishtiaksaad/
+              </a>
+              ";
+            </p>
+
+            <p className="text-green-400 pt-8">
+              <a
+                href="#" // Replace with actual resume URL when ready
+                download
+                className="px-6 py-3 border border-green-400 text-green-400 hover:bg-green-400 hover:text-black transition-all duration-300 font-mono text-sm"
+              >
+                Download Resume
+              </a>
             </p>
           </div>
         </div>

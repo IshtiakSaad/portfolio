@@ -9,7 +9,7 @@ import Skills from "./components/Skills";
 
 const App = () => {
   return (
-    <div className="flex flex-col bg-gradient-to-r from-black via-gray-900 to-gray-800 min-h-screen">
+    <div className="flex flex-col bg-gradient-to-r from-black via-gray-900 to-gray-800 min-h-screen font-mono">
       <Navbar></Navbar>
 
       <div className="flex-grow pt-20 pb-20 container mx-auto px-6">

@@ -4,7 +4,7 @@ const Education = () => {
         <div className="container mx-auto">
           <h2 className="text-3xl font-bold text-green-400 font-mono mb-8">_education</h2>
   
-          <div className="flex flex-row gap-4 justify-center">
+          <div className="flex flex-col md:flex-row gap-4 justify-center">
             {/* University */}
             <div className="bg-gray-900/50 border border-gray-700 p-6 rounded-lg shadow-lg shadow-green-500/20">
               <h3 className="text-xl text-orange-400 font-semibold">Rajshahi University of Engineering & Technology</h3>
