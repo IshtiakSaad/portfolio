@@ -12,7 +12,9 @@ const Hero = () => {
           />
         </div>
         <div className="text-left text-white font-mono">
-          <h1 className="text-3xl md:text-5xl font-bold text-white mt-2">Ishtiak Saad</h1>
+          <h1 className="text-3xl md:text-5xl font-bold text-white mt-2">
+            Ishtiak Saad
+          </h1>
           <h2 className="md:text-2xl text-blue-400 mt-1">
             &gt; MERN Stack developer
           </h2>
@@ -56,8 +58,7 @@ const Hero = () => {
 
             <p className="text-green-400 pt-8 text-center">
               <a
-                href="#" // Replace with actual resume URL when ready
-                download
+                href="https://drive.google.com/uc?export=download&id=1-Km7352bYQE6dKB-LrP_23Yu1TA4GEM3"
                 className="px-6 py-3 border border-green-400 text-green-400 hover:bg-green-400 hover:text-black transition-all duration-300 font-mono text-sm"
               >
                 Download Resume

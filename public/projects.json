@@ -1,0 +1,89 @@
+[
+    {
+      "id": "ruet-cafeteria",
+      "name": "RUET Cafeteria Management System",
+      "image": "../src/assets/project-1.png",
+      "description": "A web-based cafeteria management system for RUET, providing a seamless experience for students and staff to order food online.",
+      "mainTechStack": ["React", "Tailwind CSS", "Firebase", "Node.js", "Express.js"],
+      "features": [
+        "Student authentication using Firebase",
+        "Online food ordering system",
+        "Admin dashboard for managing meals",
+        "Order history and transaction tracking",
+        "Responsive design with dynamic meal categories",
+        "Infinite scrolling for meal listings",
+        "Real-time notifications with SweetAlert2",
+        "Payment integration with Stripe",
+        "Server-side search and filter for meal categories and prices"
+      ],
+      "liveLink": "https://ruet-hall-3cb68.web.app/",
+      "github": "https://github.com/IshtiakSaad/RUET-Cafeteria-Client-Side",
+      "challenges": [
+        "Ensuring smooth user authentication with Firebase.",
+        "Managing complex state for meal listings and user reviews.",
+        "Implementing infinite scrolling with performance optimization."
+      ],
+      "potentialImprovements": [
+        "Integrating machine learning for personalized meal recommendations.",
+        "Expanding the admin dashboard with advanced analytics.",
+        "Adding a review moderation system for admins."
+      ]
+    },
+    {
+      "id": "nazirabazar",
+      "name": "Nazirabazar Online Marketplace",
+      "image": "../src/assets/project-n.png",
+      "description": "A marketplace for Nazirabazar that connects local vendors with customers for buying and selling various products.",
+      "mainTechStack": ["React", "Firebase", "Tailwind CSS", "Express.js", "MongoDB"],
+      "features": [
+        "Email/password and Google login authentication",
+        "JWT token management for secure sessions",
+        "Responsive design for mobile, tablet, and desktop",
+        "Food detail page with expiry date, cook, poster, and summary",
+        "Private routes for authenticated users (Add Food, My Requests)",
+        "JWT-based token validation for protected routes",
+        "Clean, modern, and engaging UI with animations and gradients"
+      ],
+      "liveLink": "https://job-portal-for-goribs.web.app/",
+      "github": "https://github.com/IshtiakSaad/nazirabazar-client-side",
+      "challenges": [
+        "Integrating JWT authentication and ensuring secure token storage.",
+        "Designing an intuitive UI for users on all devices.",
+        "Managing large-scale data efficiently with MongoDB."
+      ],
+      "potentialImprovements": [
+        "Introducing advanced search filters and recommendations.",
+        "Adding real-time chat between vendors and customers.",
+        "Expanding the product categories and integrating a payment gateway."
+      ]
+    },
+    {
+      "id": "movie-portal",
+      "name": "Movie Portal",
+      "image": "../src/assets/project-m.png",
+      "description": "A movie management platform where users can browse, rate, and review their favorite movies.",
+      "mainTechStack": ["React", "Firebase", "Tailwind CSS", "Node.js", "MongoDB"],
+      "features": [
+        "Add and manage movies with rich details",
+        "Rate movies with a star rating system",
+        "Secure login and registration with Firebase Authentication",
+        "Personalized favorites list for users",
+        "Private routes to access personal data (Favorites, Add Movie)",
+        "View detailed movie information, including posters and summaries",
+        "Responsive design using TailwindCSS"
+      ],
+      "liveLink": "https://movie-server-0.web.app/",
+      "github": "https://github.com/IshtiakSaad/Movie-Portal-Client",
+      "challenges": [
+        "Ensuring secure user authentication with Firebase.",
+        "Implementing a responsive UI that works seamlessly across devices.",
+        "Handling large media assets (movie posters, banners) efficiently."
+      ],
+      "potentialImprovements": [
+        "Integrating an API for live movie data and reviews.",
+        "Allowing users to create and share movie lists.",
+        "Expanding the movie database with user-generated content."
+      ]
+    }
+  ]
+  

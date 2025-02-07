@@ -4,6 +4,7 @@ import projectM from "../assets/project-m.png";
 
 const projects = [
   {
+    id: "ruet-cafeteria",
     name: "RUET Cafeteria Management System",
     image: project1,
     detailsLink: "/projects/ruet-cafeteria",
@@ -12,6 +13,7 @@ const projects = [
     github: "https://github.com/IshtiakSaad/RUET-Cafeteria-Client-Side",
   },
   {
+    id: "nazirabazar",
     name: "Nazirabazar Online Marketplace",
     image: projectN,
     detailsLink: "/projects/nazirabazar",
@@ -20,6 +22,7 @@ const projects = [
     github: "https://github.com/IshtiakSaad/nazirabazar-client-side",
   },
   {
+    id: "movie-portal",
     name: "Movie Portal",
     image: projectM,
     detailsLink: "/projects/movie-portal",

@@ -7,7 +7,7 @@ const AboutMe = () => {
           <h2 className="text-3xl font-bold text-green-400 font-mono mb-4">
             _about-me
           </h2>
-          <p className="text-gray-400 leading-relaxed">
+          <p className="text-gray-400 leading-relaxed text-justify">
             Hey, I'm{" "}
             <span className="text-orange-400 font-semibold">Ishtiak Saad</span>,
             a passionate{" "}
@@ -17,7 +17,7 @@ const AboutMe = () => {
             creating applications that leave an impact.
           </p>
 
-          <p className="mt-4 text-gray-400 leading-relaxed">
+          <p className="mt-4 text-gray-400 leading-relaxed text-justify">
             I enjoy building scalable, high-performance web applications, and
             I'm particularly drawn to designing elegant and cinematic UIs.
             Whether it's a news portal, a movie management app, or a hostel
@@ -31,7 +31,7 @@ const AboutMe = () => {
             </p>
           </div>
 
-          <p className="mt-4 text-gray-400 leading-relaxed">
+          <p className="mt-4 text-gray-400 leading-relaxed text-justify">
             I’ve taken on leadership roles in various technical and
             entrepreneurial initiatives. As a mechanical designer for{" "}
             <span className="text-orange-400 font-semibold">
@@ -46,7 +46,7 @@ const AboutMe = () => {
             knowledge-sharing.
           </p>
 
-          <p className="mt-4 text-gray-400 leading-relaxed">
+          <p className="mt-4 text-gray-400 leading-relaxed text-justify">
             When I'm not coding or producing videos, you’ll find me diving into
             new tech, refining my projects, or mentoring others. I believe in
             continuous learning and creating things that truly matter.
